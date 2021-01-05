@@ -46,6 +46,17 @@ The player who makes a straight line with 3 marks wins!
 
 - Repl live demo: [Link](https://repl.it/@StarSheriff2/Tic-Tac-Toe-Ruby-Project)
 
+## Rspec Setup
+
+1. Follow steps 1 to 6 in "Instructions" section of this **README** file
+2. While in the root directory, type `bundle install`. This will install Rspec in your system, in case you don't have it installed already. (It also installs Rubocop; however, this gem is not necessary to make the project work).
+
+## Rspec Testing
+
+To run the Rspec tests do the following:
+- Open your terminal and go to the project's root directory
+- Type this `rspec --format doc` to see test example results
+
 ## Authors
 
 👤 **Victor Pacheco**
