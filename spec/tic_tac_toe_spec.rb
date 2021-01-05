@@ -18,7 +18,7 @@ describe Game do
 
       it "changes @winner to player's name if line is in reverse order" do
         winner_name = player.name
-        moves = player.moves
+        moves = player.moves.reverse
         game_win.win(moves, winner_name)
         winner = game_win.winner
         expect(winner).to eq('Charles')
